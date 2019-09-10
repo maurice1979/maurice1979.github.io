@@ -1,2 +1,4 @@
 name: Jordi Vidal de Llobatera
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
