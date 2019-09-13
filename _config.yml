@@ -1,4 +1,63 @@
-name: Jordi Vidal de Llobatera
-markdown: kramdown
+url: https://y7kim.github.io
+baseurl: /agency-jekyll-theme/
 
-permalink: /blog/:year/:month/:day/:title
+# Site settings
+title: Jordi Vidal de Llobatera's Personal Page
+email: is.maurice@pm.me
+description: "Jordi Vidal de Llobatera's personal web page."
+
+
+# Team names, titles and social links
+people:
+- name: Jordi Vidal de Llobatera
+  pic: 1
+  position: Data Scientist & Renewable Energy Specialist
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/jordividaldellobatera/
+    - title: stack-overflow
+      url: https://stackoverflow.com/users/4420297/jordi-vidal-de-llobatera?tab=profile
+    - title: twitter
+      url: #
+    - title: github
+    - url: https://github.com/maurice1979
+
+# - name: Larry Parker
+#   pic: 2
+#   position: Lead Marketer
+#   social:
+#     - title: twitter
+#       url: #
+#     - title: facebook
+#       url: #
+#     - title: linkedin
+#       url: #
+#
+# - name: Diana Petersen
+#   pic: 3
+#   position: Lead Developer
+#   social:
+#     - title: twitter
+#       url: #
+#     - title: facebook
+#       url: #
+#     - title: google-plus
+#       url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: stack-overflow
+    url: https://stackoverflow.com/users/4420297/jordi-vidal-de-llobatera?tab=profile
+  - title: github
+    url: https://github.com/maurice1979
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty
