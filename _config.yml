@@ -1,7 +1,7 @@
 #url: https://y7kim.github.io
 url: https://maurice1979.github.io
 baseurl: /home/
-# theme: agency-jekyll-theme
+remote_theme: y7kim/agency-jekyll-theme
 
 # Site settings
 title: Jordi Vidal de Llobatera's Personal Page
