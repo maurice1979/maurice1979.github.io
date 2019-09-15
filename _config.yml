@@ -1,6 +1,5 @@
 #url: https://y7kim.github.io
 url: https://maurice1979.github.io
-# remote_theme: y7kim/agency-jekyll-theme
 
 # Site settings
 title: Jordi Vidal de Llobatera's Personal Page
@@ -20,30 +19,11 @@ people:
       url: https://stackoverflow.com/users/4420297/jordi-vidal-de-llobatera?tab=profile
     - title: github
       url: https://github.com/maurice1979
+    - title: git
+      url: https://gitlab.com/is.maurice
 #    - title: twitter
 #      url: https://twitter.com/jordi_vdll
 
-# - name: Larry Parker
-#   pic: 2
-#   position: Lead Marketer
-#   social:
-#     - title: twitter
-#       url: #
-#     - title: facebook
-#       url: #
-#     - title: linkedin
-#       url: #
-#
-# - name: Diana Petersen
-#   pic: 3
-#   position: Lead Developer
-#   social:
-#     - title: twitter
-#       url: #
-#     - title: facebook
-#       url: #
-#     - title: google-plus
-#       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -53,6 +33,10 @@ social:
     url: https://stackoverflow.com/users/4420297/jordi-vidal-de-llobatera?tab=profile
   - title: github
     url: https://github.com/maurice1979
+  - title: git
+    url: https://gitlab.com/is.maurice
+  # - title: telegram
+  #   url: <a href="mailto:is.maurice@pm.me</a>
   # - title: twitter
   #   url: http://twitter.com/jekyllrb
 
