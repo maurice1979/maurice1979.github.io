@@ -1,6 +1,11 @@
 #url: https://y7kim.github.io
 url: https://maurice1979.github.io
 
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-149263600-1      # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
+
 # Site settings
 title: Jordi Vidal de Llobatera's Personal Page
 email: is.maurice@pm.me
