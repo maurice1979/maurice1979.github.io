@@ -1,0 +1,3 @@
+# Options here apply to every post in this folder.
+freeze: true
+title-block-banner: false

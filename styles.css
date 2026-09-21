@@ -1,0 +1,4 @@
+/* site-wide tweaks */
+body {
+  -webkit-font-smoothing: antialiased;
+}

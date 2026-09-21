@@ -1,30 +1,46 @@
-Agency Jekyll theme
-====================
+# maurice1979.github.io
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+Jordi Vidal de Llobatera's personal site — https://maurice1979.github.io/
 
-# How to use
+Built with [Quarto](https://quarto.org). Consolidates what used to be two separate,
+mostly-unfinished sites (this repo's old Jekyll "Agency" theme, and the `fastblog`
+repo's fastpages blog) into one: Home, About, Projects, Blog.
 
-###Portfolio 
+## Structure
 
-Portfolio projects are in '/_posts'
+- `index.qmd` — home page
+- `about.qmd` — about / bio
+- `projects.qmd` — project showcase
+- `blog.qmd` + `posts/` — blog listing and posts
 
-Images are in '/img/portfolio'
+## Writing a post
 
-###About
+Create a new folder under `posts/`, e.g. `posts/my-new-post/index.qmd`, with front matter like:
 
-Images are in '/img/about/'
+```yaml
+---
+title: "My New Post"
+description: "One-line summary."
+date: "2026-09-21"
+categories: [data-engineering]
+---
+```
 
-###Team
+Draft posts (hidden from the listing until ready) can be marked with `draft: true`.
 
-Team members and info are in '_config.yml'
+## Preview locally
 
-Images are in '/img/team/'
+Install [Quarto](https://quarto.org/docs/get-started/), then from the repo root:
 
+```bash
+quarto preview
+```
 
-# Demo
+## Publishing
 
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+Pushing to `master` triggers `.github/workflows/publish.yml`, which renders the
+site and deploys it via GitHub Pages' native Actions deployment.
 
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+**One-time setup:** in this repo's **Settings → Pages**, set "Build and deployment
+→ Source" to **GitHub Actions** (not "Deploy from a branch"). After that, every
+push to `master` deploys automatically.

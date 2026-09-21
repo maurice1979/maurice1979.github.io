@@ -1,0 +1,35 @@
+---
+title: "About"
+image: images/profile.jpg
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/maurice1979
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jordividaldellobatera
+---
+
+## Senior Data Engineer — Data Platforms & MLOps
+
+I'm a Senior Data Engineer who enjoys turning messy, high-stakes data problems into systems that are reliable, observable, and built to last. My recent work spans designing data lake architectures from the ground up, shipping production ETL pipelines, building reusable Python infrastructure, and developing LLM-powered enrichment pipelines that bring structure to unstructured data.
+
+A background in physics and energy engineering shaped how I approach problems: understand the system first, question assumptions, and let the data guide the decision.
+
+- **Focus:** data platforms, ETL/ELT pipelines, MLOps, and putting generative AI into production
+- **Currently:** open to Senior Data Engineer / Data Platform / MLOps roles
+- **Experience:** 10+ years in data engineering & data science, 15+ years across the energy industry
+- **Stack:** Python, Polars, PySpark, SQL, AWS, dbt, Airflow, Docker, Terraform
+
+### Recent highlights
+
+- **Data lake architecture** — co-designed a data platform from scratch (S3, Glue, Athena, ECS, Lambda, RDS) turning raw retail data into enriched product intelligence across multiple countries.
+- **LLM-powered enrichment** — built production pipelines using OpenAI/Anthropic APIs for translation, entity matching and classification, with structured outputs, retries, caching and provider abstraction.
+- **Reusable data infrastructure** — designed internal Python libraries (I/O, connectors, logging) adopted across 8–10+ repos, with versioning, docs and CI/CD.
+- **Pipeline reliability** — migrated PySpark/EMR workloads to Polars in Docker and optimized dbt/Redshift models, cutting cost and improving reliability at scale.
+- **Orchestration at scale** — built and maintained ~50 Airflow pipelines powering production-critical daily/hourly data workflows.
+
+See [Projects](projects.qmd) for a closer look at some of the personal work, or the [Blog](blog.qmd) for write-ups.

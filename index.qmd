@@ -1,0 +1,18 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {style="max-width: 700px;"}
+
+# Hi, I'm Jordi
+
+**Senior Data Engineer** based in Barcelona, focused on data platforms, ELT pipelines, MLOps, and putting generative AI into production. 10+ years building data infrastructure, with a background in physics and energy engineering.
+
+I enjoy turning messy, high-stakes data problems into systems that are reliable, observable, and built to last.
+
+- **[About](about.qmd)** — who I am and what I've worked on
+- **[Projects](projects.qmd)** — a showcase of personal and production work
+- **[Blog](blog.qmd)** — notes on data engineering and, occasionally, renewable energy
+
+:::

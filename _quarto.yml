@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Jordi Vidal de Llobatera"
+  description: "Senior Data Engineer — data platforms, ELT pipelines, and putting generative AI into production."
+  site-url: "https://maurice1979.github.io/"
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+      - href: blog.qmd
+        text: Blog
+    right:
+      - icon: github
+        href: https://github.com/maurice1979
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jordividaldellobatera
+        aria-label: LinkedIn
+  page-footer:
+    left: "© 2026 Jordi Vidal de Llobatera"
+    right:
+      - icon: github
+        href: https://github.com/maurice1979
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jordividaldellobatera
+
+format:
+  html:
+    theme:
+      - cosmo
+    css: styles.css
+    toc: false
