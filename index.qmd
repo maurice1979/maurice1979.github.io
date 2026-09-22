@@ -3,16 +3,91 @@ title: ""
 page-layout: full
 ---
 
-::: {style="max-width: 700px;"}
-
-# Hi, I'm Jordi
-
-**Senior Data Engineer** based in Barcelona, focused on data platforms, ELT pipelines, MLOps, and putting generative AI into production. 10+ years building data infrastructure, with a background in physics and energy engineering.
-
-I enjoy turning messy, high-stakes data problems into systems that are reliable, observable, and built to last.
-
-- **[About](about.qmd)** — who I am and what I've worked on
-- **[Projects](projects.qmd)** — a showcase of personal and production work
-- **[Blog](blog.qmd)** — notes on data engineering and, occasionally, renewable energy
-
+::: {.hero}
+::: {.hero-photo}
+![](images/profile.jpg)
 :::
+
+::: {.hero-text}
+# Hi, I'm Jordi 👋
+
+::: {.hero-tagline}
+Senior Data Engineer, Barcelona
+:::
+
+I design and own data platforms end-to-end — from data modeling to governance and production ELT pipelines. 5+ years in data engineering, 15+ years building things with data across energy and tech.
+
+::: {.pill-row}
+[Python]{.pill} [SQL]{.pill} [AWS]{.pill} [dbt]{.pill} [Airflow]{.pill} [PySpark / Polars]{.pill} [LLMs / GenAI]{.pill}
+:::
+:::
+:::
+
+::: {.stats-row}
+::: {.stat-card}
+[5+]{.stat-number}
+[years as a data engineer]{.stat-label}
+:::
+::: {.stat-card}
+[10+]{.stat-number}
+[teams using tools I built]{.stat-label}
+:::
+::: {.stat-card}
+[50]{.stat-number}
+[production Airflow pipelines]{.stat-label}
+:::
+::: {.stat-card}
+[4]{.stat-number}
+[countries of data modeled]{.stat-label}
+:::
+:::
+
+[What I do]{.section-eyebrow}
+
+## Data platforms, built to last
+
+::: {.feature-grid}
+::: {.feature-card style="--accent-color: var(--accent-1);"}
+[🏗️]{.feature-icon}
+
+### Data lake architecture
+
+Designing data models and lake architectures from scratch on AWS (S3, Glue, Athena, Lambda, ECS, RDS) — including entity-level historical tracking of change over time.
+:::
+
+::: {.feature-card style="--accent-color: var(--accent-2);"}
+[⚙️]{.feature-icon}
+
+### Production ELT pipelines
+
+Building and operating pipelines with dbt, Airflow, PySpark and Polars — optimized for reliability at GB-scale, not just for the demo.
+:::
+
+::: {.feature-card style="--accent-color: var(--accent-3);"}
+[🤖]{.feature-icon}
+
+### LLM-powered enrichment
+
+Structured, production-grade pipelines using OpenAI/Anthropic APIs for translation, entity matching and classification — with retries, caching and provider abstraction.
+:::
+
+::: {.feature-card style="--accent-color: var(--accent-4);"}
+[📐]{.feature-icon}
+
+### Reusable infrastructure & governance
+
+Python libraries, CI/CD standards and data quality monitoring adopted across 8–10+ repos and 10+ teams — documentation-first, versioned, and built for other engineers to build on.
+:::
+:::
+
+[Explore]{.section-eyebrow}
+
+## Where to go next
+
+::: {.cta-row}
+[About me →](about.qmd){.cta-btn .cta-primary}
+[Projects →](projects.qmd){.cta-btn .cta-secondary}
+[Blog →](blog.qmd){.cta-btn .cta-secondary}
+:::
+
+A background in physics and energy engineering shaped how I work: understand the system first, question assumptions, and let the data guide the decision. Outside of production work, I build small end-to-end projects — a from-scratch Iceberg lakehouse, dbt on real open weather data, a PyTorch mushroom classifier — to learn technologies hands-on before they show up at work. See [Projects](projects.qmd) for details.

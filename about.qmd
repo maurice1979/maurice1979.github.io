@@ -15,21 +15,99 @@ about:
 
 ## Senior Data Engineer — Data Platforms & MLOps
 
-I'm a Senior Data Engineer who enjoys turning messy, high-stakes data problems into systems that are reliable, observable, and built to last. My recent work spans designing data lake architectures from the ground up, shipping production ETL pipelines, building reusable Python infrastructure, and developing LLM-powered enrichment pipelines that bring structure to unstructured data.
+I build data products that turn complex, messy data into reliable, scalable systems. My career started in renewable energy as a physicist and energy engineer, working on wind resource assessment and solar research — over time my focus shifted toward data, first as a data scientist and eventually as a data engineer, and today I enjoy working where software engineering, data engineering and machine learning intersect.
 
-A background in physics and energy engineering shaped how I approach problems: understand the system first, question assumptions, and let the data guide the decision.
+Recent work spans designing data lake architectures from the ground up, shipping production ETL/ELT pipelines, building reusable Python infrastructure adopted across teams, and developing LLM-powered enrichment pipelines that bring structure to unstructured data. I've worked in startups, scale-ups and established companies, including co-founding an energy-tech company and leading technical teams — which taught me that good data solutions need close collaboration with domain experts as much as strong technical skills.
 
 - **Focus:** data platforms, ETL/ELT pipelines, MLOps, and putting generative AI into production
 - **Currently:** open to Senior Data Engineer / Data Platform / MLOps roles
-- **Experience:** 10+ years in data engineering & data science, 15+ years across the energy industry
+- **Experience:** 5+ years in data engineering, 15+ years across data science and renewable energy
 - **Stack:** Python, Polars, PySpark, SQL, AWS, dbt, Airflow, Docker, Terraform
+- **Languages:** Spanish & Catalan (native), English (professional), French (basic)
 
 ### Recent highlights
 
-- **Data lake architecture** — co-designed a data platform from scratch (S3, Glue, Athena, ECS, Lambda, RDS) turning raw retail data into enriched product intelligence across multiple countries.
-- **LLM-powered enrichment** — built production pipelines using OpenAI/Anthropic APIs for translation, entity matching and classification, with structured outputs, retries, caching and provider abstraction.
-- **Reusable data infrastructure** — designed internal Python libraries (I/O, connectors, logging) adopted across 8–10+ repos, with versioning, docs and CI/CD.
-- **Pipeline reliability** — migrated PySpark/EMR workloads to Polars in Docker and optimized dbt/Redshift models, cutting cost and improving reliability at scale.
+- **Data lake architecture** — designed a data platform from scratch (S3, Glue, Athena, ECS, Lambda, RDS/PostgreSQL) for a multi-country product dataset spanning Spain, France, Italy and Great Britain, with entity-level historical tracking of change over time.
+- **LLM-powered enrichment** — built production pipelines using OpenAI/Anthropic APIs for ingredient translation, operator matching and claim classification, with structured data contracts, provider abstraction, retries and caching.
+- **Reusable data infrastructure** — designed internal Python libraries (I/O, connectors, logging) adopted across 8–10+ repos and 10+ teams, with versioning, Sphinx docs and automated releases.
+- **Pipeline reliability at scale** — optimized dbt models and Redshift SQL to prevent EMR timeouts, and migrated select PySpark/EMR workloads to Polars in Docker, cutting operational cost while improving debuggability.
 - **Orchestration at scale** — built and maintained ~50 Airflow pipelines powering production-critical daily/hourly data workflows.
+
+## Experience
+
+::: {.timeline}
+::: {.timeline-item}
+[Founding Data Engineer]{.timeline-role}<br>
+[Acumen62i · Barcelona (Remote) [·]{.dot} Feb 2026 – Jul 2026]{.timeline-meta}
+
+Designed and owned the full data lake architecture for a food-intelligence platform (S3, Glue, Athena, ECS, Lambda, RDS/PostgreSQL) — from web-scraped raw data through to enriched, analytics-ready product records covering supermarket chains across Europe. Built Python/Polars ETL pipelines at multi-GB scale, defined data quality policies with monitoring and Slack alerting, and designed structured LLM-enrichment pipelines (translation, operator matching, claim classification) feeding a product-level health/nutrition scoring system.
+:::
+
+::: {.timeline-item}
+[Senior Data Engineer]{.timeline-role}<br>
+[Netquest · Barcelona (Hybrid) [·]{.dot} Jan 2025 – Mar 2026]{.timeline-meta}
+
+Optimized dbt models and Redshift SQL — incremental models, reusable macros, query tuning — to prevent EMR timeouts and improve pipeline reliability. Designed a reusable Python library (logging, Polars-based I/O, Redshift/MySQL/PostgreSQL connectors) adopted across multiple repos and teams. Built and maintained 50 Airflow pipelines processing survey and user-navigation data, and standardized CI/CD across 8–10 repos with a common Jenkinsfile (pytest, Ruff, Trivy, Docker/ECR).
+:::
+
+::: {.timeline-item}
+[Senior Data Engineer]{.timeline-role}<br>
+[Holaluz · Barcelona (Hybrid) [·]{.dot} Sep 2023 – Jan 2025]{.timeline-meta}
+
+Main developer of the internal data lake library — a reusable Python framework standardizing how data products are created, processed and moved across the data lake, adopted across 10+ teams. Built reusable readers for CSV, XML, JSON and Parquet, plus CLI tooling and Cookiecutter templates. Maintained automated tests and Sphinx documentation, and developed production ETL pipelines with PySpark and AWS Glue (S3, Athena).
+:::
+
+::: {.timeline-item}
+[Senior Data Scientist & Team Lead]{.timeline-role}<br>
+[Holaluz · Barcelona [·]{.dot} Jul 2020 – Sep 2023]{.timeline-meta}
+
+Led predictive modelling for energy demand and surplus forecasting, translating cross-functional business needs into production pipelines. Designed and maintained energy prediction pipelines with Airflow, working closely with business stakeholders to align models with operational needs.
+:::
+
+::: {.timeline-item}
+[Co-founder & Data Scientist / Data Engineer]{.timeline-role}<br>
+[Nnergix · Barcelona [·]{.dot} 2018 – 2020]{.timeline-meta}
+
+Continuous improvement of ML-based predictive algorithms and development of the customer-facing web platform.
+:::
+
+::: {.timeline-item}
+[Co-founder & CTO]{.timeline-role}<br>
+[Nnergix · Barcelona [·]{.dot} 2013 – 2018]{.timeline-meta}
+
+Responsible for the technical department: project management and design/implementation of the customer service platform from the ground up.
+:::
+
+::: {.timeline-item}
+[Wind Power Consultant]{.timeline-role}<br>
+[Normawind · Barcelona [·]{.dot} 2008 – 2012]{.timeline-meta}
+
+Wind resource assessment and wind farm design; WindPRO software instructor for clients in Spain and LATAM.
+:::
+:::
+
+## Education
+
+::: {.timeline}
+::: {.timeline-item}
+[M.Sc. Energy Engineering]{.timeline-role}<br>
+[Polytechnic University of Catalonia (UPC) [·]{.dot} 2008]{.timeline-meta}
+:::
+
+::: {.timeline-item}
+[Degree in Physics]{.timeline-role}<br>
+[Polytechnic University of Catalonia (UPC) [·]{.dot} 2000 – 2007]{.timeline-meta}
+:::
+
+::: {.timeline-item}
+[Postgraduate in Data Science & Big Data]{.timeline-role}<br>
+[University of Barcelona [·]{.dot} 2015 – 2016]{.timeline-meta}
+:::
+
+::: {.timeline-item}
+[Deep Learning]{.timeline-role}<br>
+[Fast.ai [·]{.dot} 2019]{.timeline-meta}
+:::
+:::
 
 See [Projects](projects.qmd) for a closer look at some of the personal work, or the [Blog](blog.qmd) for write-ups.

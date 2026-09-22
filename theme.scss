@@ -1,0 +1,24 @@
+/*-- scss:defaults --*/
+
+$primary:   #4C3AA8 !default; // indigo
+$body-bg:   #ffffff !default;
+$link-color: $primary !default;
+
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !default;
+
+/*-- scss:rules --*/
+
+:root {
+  --accent-1: #4C3AA8;   // indigo
+  --accent-2: #00A388;   // teal
+  --accent-3: #F2994A;   // amber
+  --accent-4: #EB5757;   // coral
+  --ink: #1F2430;
+  --muted: #5B6472;
+  --surface: #F7F7FB;
+  --surface-border: #E7E6F2;
+}
+
+body {
+  color: var(--ink);
+}
