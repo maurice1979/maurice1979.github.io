@@ -15,7 +15,7 @@ page-layout: full
 Senior Data Engineer, Barcelona
 :::
 
-I design and own data platforms end-to-end — from data modeling to governance and production ELT pipelines. 5+ years in data engineering, 15+ years building things with data across energy and tech.
+I like building data platforms that are reliable and easy to reason about — from data modeling to governance and production ELT pipelines. Alongside that, I've always kept a foot in data science and, more recently, applied AI. 5+ years in data engineering, 15+ years building things with data across energy and tech.
 
 ::: {.pill-row}
 [Python]{.pill} [SQL]{.pill} [AWS]{.pill} [dbt]{.pill} [Airflow]{.pill} [PySpark / Polars]{.pill} [LLMs / GenAI]{.pill}
@@ -37,14 +37,14 @@ I design and own data platforms end-to-end — from data modeling to governance 
 [production Airflow pipelines]{.stat-label}
 :::
 ::: {.stat-card}
-[4]{.stat-number}
-[countries of data modeled]{.stat-label}
+[17+]{.stat-number}
+[LLM prompts running in production]{.stat-label}
 :::
 :::
 
-[What I do]{.section-eyebrow}
+[What I like working on]{.section-eyebrow}
 
-## Data platforms, built to last
+## A few things I enjoy building
 
 ::: {.feature-grid}
 ::: {.feature-card style="--accent-color: var(--accent-1);"}
@@ -52,7 +52,7 @@ I design and own data platforms end-to-end — from data modeling to governance 
 
 ### Data lake architecture
 
-Designing data models and lake architectures from scratch on AWS (S3, Glue, Athena, Lambda, ECS, RDS) — including entity-level historical tracking of change over time.
+Data models and lake architectures on AWS (S3, Glue, Athena, Lambda, ECS, RDS), including entity-level historical tracking of change over time.
 :::
 
 ::: {.feature-card style="--accent-color: var(--accent-2);"}
@@ -60,7 +60,7 @@ Designing data models and lake architectures from scratch on AWS (S3, Glue, Athe
 
 ### Production ELT pipelines
 
-Building and operating pipelines with dbt, Airflow, PySpark and Polars — optimized for reliability at GB-scale, not just for the demo.
+Pipelines with dbt, Airflow, PySpark and Polars, aimed at holding up reliably at GB-scale rather than just working once.
 :::
 
 ::: {.feature-card style="--accent-color: var(--accent-3);"}
@@ -68,15 +68,15 @@ Building and operating pipelines with dbt, Airflow, PySpark and Polars — optim
 
 ### LLM-powered enrichment
 
-Structured, production-grade pipelines using OpenAI/Anthropic APIs for translation, entity matching and classification — with retries, caching and provider abstraction.
+Structured pipelines using OpenAI/Anthropic APIs for translation, entity matching and classification — with retries, caching and provider abstraction.
 :::
 
 ::: {.feature-card style="--accent-color: var(--accent-4);"}
-[📐]{.feature-icon}
+[📈]{.feature-icon}
 
-### Reusable infrastructure & governance
+### Data science & forecasting
 
-Python libraries, CI/CD standards and data quality monitoring adopted across 8–10+ repos and 10+ teams — documentation-first, versioned, and built for other engineers to build on.
+Multi-model forecasting (XGBoost, Random Forest, Time Fusion Transformer) building on physics-based models from my energy-engineering background — where my data journey started.
 :::
 :::
 
