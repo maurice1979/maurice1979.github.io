@@ -15,21 +15,99 @@ about:
 
 ## Senior Data Engineer — Data Platforms & MLOps
 
-I'm a Senior Data Engineer who enjoys turning messy, high-stakes data problems into systems that are reliable, observable, and built to last. My recent work spans designing data lake architectures from the ground up, shipping production ETL pipelines, building reusable Python infrastructure, and developing LLM-powered enrichment pipelines that bring structure to unstructured data.
+I like turning complex, messy data into systems that are reliable and easy to reason about. My career started in renewable energy as a physicist and energy engineer, working on wind resource assessment and solar research — over time my focus shifted toward data, first as a data scientist and eventually as a data engineer, and today I enjoy working where software engineering, data engineering and machine learning intersect.
 
-A background in physics and energy engineering shaped how I approach problems: understand the system first, question assumptions, and let the data guide the decision.
+Recent work spans data lake architecture, production ETL/ELT pipelines, reusable Python infrastructure, and LLM-powered enrichment pipelines that bring structure to unstructured data. Data science has stayed a constant alongside the engineering — multi-model forecasting systems, and more recently applied AI — so I try not to describe myself as only "the platform person." I've worked in startups, scale-ups and established companies, including co-founding an energy-tech company, which taught me that good data solutions need close collaboration with domain experts as much as technical skills.
 
-- **Focus:** data platforms, ETL/ELT pipelines, MLOps, and putting generative AI into production
+- **Focus:** data platforms, ETL/ELT pipelines, MLOps, and putting generative AI into production — with a running interest in data science and forecasting
 - **Currently:** open to Senior Data Engineer / Data Platform / MLOps roles
-- **Experience:** 10+ years in data engineering & data science, 15+ years across the energy industry
+- **Experience:** 5+ years in data engineering, 15+ years across data science and renewable energy
 - **Stack:** Python, Polars, PySpark, SQL, AWS, dbt, Airflow, Docker, Terraform
+- **Languages:** Spanish & Catalan (native), English (professional), French (basic)
 
-### Recent highlights
+### A few highlights along the way
 
-- **Data lake architecture** — co-designed a data platform from scratch (S3, Glue, Athena, ECS, Lambda, RDS) turning raw retail data into enriched product intelligence across multiple countries.
-- **LLM-powered enrichment** — built production pipelines using OpenAI/Anthropic APIs for translation, entity matching and classification, with structured outputs, retries, caching and provider abstraction.
-- **Reusable data infrastructure** — designed internal Python libraries (I/O, connectors, logging) adopted across 8–10+ repos, with versioning, docs and CI/CD.
-- **Pipeline reliability** — migrated PySpark/EMR workloads to Polars in Docker and optimized dbt/Redshift models, cutting cost and improving reliability at scale.
-- **Orchestration at scale** — built and maintained ~50 Airflow pipelines powering production-critical daily/hourly data workflows.
+- **Data lake architecture** — a data platform for a multi-country product dataset spanning Spain, France, Italy and Great Britain (S3, Glue, Athena, ECS, Lambda, RDS/PostgreSQL), with entity-level historical tracking of change over time.
+- **LLM-powered enrichment** — a dual-provider (OpenAI + Anthropic) batch-processing framework powering 17+ production prompts — ingredient translation, entity matching, claim classification — with prompt-dependency chains, result caching and provider abstraction.
+- **Two internal Python libraries** — primary author of `ntq-data-toolkit` at Netquest and the data-lake commons package at Holaluz (I/O, connectors, logging), each versioned, documented and picked up by other teams.
+- **Forecasting, a long-running thread** — a multi-model demand/surplus forecasting system (XGBoost, Random Forest, Time Fusion Transformer) for Spain's electricity markets, building on a physics-and-ML forecasting library I first wrote years earlier at Nnergix.
+- **Pipeline reliability** — optimizing dbt/Redshift models and moving select PySpark/EMR workloads to Polars in Docker, to make pipelines cheaper to run and easier to debug.
+
+## Experience
+
+::: {.timeline}
+::: {.timeline-item}
+[Founding Data Engineer]{.timeline-role}<br>
+[Acumen62i · Barcelona (Remote) [·]{.dot} Feb 2026 – Jul 2026]{.timeline-meta}
+
+Designed the data lake architecture for a food-intelligence platform (S3, Glue, Athena, ECS, Lambda, RDS/PostgreSQL) — from web-scraped raw data through to enriched, analytics-ready product records covering supermarket chains across Europe. Built Python/Polars ETL pipelines at multi-GB scale, defined data quality policies with monitoring and Slack alerting, and built a dual-provider (OpenAI + Anthropic) LLM batch-enrichment framework behind 17+ production prompts — ingredient translation, entity matching, claim classification — feeding a product-level health/nutrition scoring system.
+:::
+
+::: {.timeline-item}
+[Senior Data Engineer]{.timeline-role}<br>
+[Netquest · Barcelona (Hybrid) [·]{.dot} Jan 2025 – Mar 2026]{.timeline-meta}
+
+Primary author of `ntq-data-toolkit`, the shared Python library for Netquest's data teams (Polars-based I/O, Redshift/MySQL/PostgreSQL connectors, logging), including its release pipeline (semantic versioning, Sphinx docs). Primary maintainer of `ntq-bdm`, the Behavioural Data Model pipeline, where I built the CI/CD from scratch (Jenkinsfile: lint, pytest, Docker, Trivy, ECR) and later rolled the same pattern out to a couple of other repos. Also contributed to the team's much larger, long-running Airflow repository, owning the clickstream/user-navigation DAG domain.
+:::
+
+::: {.timeline-item}
+[Senior Data Engineer]{.timeline-role}<br>
+[Holaluz · Barcelona (Hybrid) [·]{.dot} Sep 2023 – Jan 2025]{.timeline-meta}
+
+Main developer of the internal data lake library — a reusable Python framework standardizing how data products are created, processed and moved across the data lake, adopted across 10+ teams. Built reusable readers for CSV, XML, JSON and Parquet, plus CLI tooling and Cookiecutter templates. Maintained automated tests and Sphinx documentation, and developed production ETL pipelines with PySpark and AWS Glue (S3, Athena).
+:::
+
+::: {.timeline-item}
+[Senior Data Scientist & Team Lead]{.timeline-role}<br>
+[Holaluz · Barcelona [·]{.dot} Jul 2020 – Sep 2023]{.timeline-meta}
+
+Led a team building a multi-model demand and surplus forecasting system (XGBoost, Random Forest, Time Fusion Transformer, plus heuristic/naive baselines) covering all Spanish electricity tariff zones — Peninsula, Baleares, Canarias, Ceuta, Melilla — that directly fed electricity purchasing decisions. Built the end-to-end pipeline with Airflow, from weather and market-price ingestion through to prediction reporting and alerting, working closely with business stakeholders to keep it aligned with operational needs.
+:::
+
+::: {.timeline-item}
+[Co-founder & Data Scientist / Data Engineer]{.timeline-role}<br>
+[Nnergix · Barcelona [·]{.dot} 2018 – 2020]{.timeline-meta}
+
+Built a forecasting library combining physics-based models (pvlib, windpowerlib) with machine learning (scikit-learn) for solar, wind and hydro generation and electricity demand, including probabilistic P10/P90 forecasts, localized for several Central American markets. Also worked on the customer-facing web platform.
+:::
+
+::: {.timeline-item}
+[Co-founder & CTO]{.timeline-role}<br>
+[Nnergix · Barcelona [·]{.dot} 2013 – 2018]{.timeline-meta}
+
+Responsible for the technical department: project management and design/implementation of the customer service platform from the ground up.
+:::
+
+::: {.timeline-item}
+[Wind Power Consultant]{.timeline-role}<br>
+[Normawind · Barcelona [·]{.dot} 2008 – 2012]{.timeline-meta}
+
+Wind resource assessment and wind farm design; WindPRO software instructor for clients in Spain and LATAM.
+:::
+:::
+
+## Education
+
+::: {.timeline}
+::: {.timeline-item}
+[M.Sc. Energy Engineering]{.timeline-role}<br>
+[Polytechnic University of Catalonia (UPC) [·]{.dot} 2008]{.timeline-meta}
+:::
+
+::: {.timeline-item}
+[Degree in Physics]{.timeline-role}<br>
+[Polytechnic University of Catalonia (UPC) [·]{.dot} 2000 – 2007]{.timeline-meta}
+:::
+
+::: {.timeline-item}
+[Postgraduate in Data Science & Big Data]{.timeline-role}<br>
+[University of Barcelona [·]{.dot} 2015 – 2016]{.timeline-meta}
+:::
+
+::: {.timeline-item}
+[Deep Learning]{.timeline-role}<br>
+[Fast.ai [·]{.dot} 2019]{.timeline-meta}
+:::
+:::
 
 See [Projects](projects.qmd) for a closer look at some of the personal work, or the [Blog](blog.qmd) for write-ups.

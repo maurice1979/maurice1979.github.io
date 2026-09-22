@@ -4,7 +4,7 @@ page-layout: article
 title-block-banner: false
 ---
 
-A selection of personal projects — mostly built to learn a technology hands-on before using it in production.
+A selection of personal projects — mostly built to learn a technology hands-on before using it in production. For the production side of things, see [About](about.qmd).
 
 ## iceduck
 
@@ -12,9 +12,9 @@ A selection of personal projects — mostly built to learn a technology hands-on
 
 dbt-duckdb + Apache Iceberg on an AWS Glue Data Catalog, emulated locally with Floci and provisioned with OpenTofu. Covers the pieces that don't show up in a tutorial: catalog integration, local AWS emulation, and infrastructure-as-code around the lakehouse itself, not just the transformations.
 
-`dbt` · `iceberg` · `aws-glue` · `lakehouse` · `duckdb` · `opentofu`
+[dbt]{.tag} [iceberg]{.tag} [aws-glue]{.tag} [lakehouse]{.tag} [duckdb]{.tag} [opentofu]{.tag}
 
-[View on GitHub →](https://github.com/maurice1979/iceduck)
+[View on GitHub →](https://github.com/maurice1979/iceduck){.cta-btn .cta-secondary}
 
 ---
 
@@ -24,9 +24,9 @@ dbt-duckdb + Apache Iceberg on an AWS Glue Data Catalog, emulated locally with F
 
 XEMA automatic weather station data from Catalonia's Open Data portal, modeled with dbt on DuckDB. A smaller, earlier step than iceduck — dbt fundamentals applied to a real (if modest) dataset rather than a toy example.
 
-`dbt` · `duckdb` · `open-data`
+[dbt]{.tag} [duckdb]{.tag} [open-data]{.tag}
 
-[View on GitHub →](https://github.com/maurice1979/xema-dbt)
+[View on GitHub →](https://github.com/maurice1979/xema-dbt){.cta-btn .cta-secondary}
 
 ---
 
@@ -38,6 +38,6 @@ XEMA automatic weather station data from Catalonia's Open Data portal, modeled w
 
 A web app that classifies mushroom species from a photo, built on PyTorch and deployed as a small full-stack app rather than left as a notebook.
 
-`pytorch` · `deep-learning` · `computer-vision`
+[pytorch]{.tag} [deep-learning]{.tag} [computer-vision]{.tag}
 
-[View on GitHub →](https://github.com/maurice1979/mushroom-identifier)
+[View on GitHub →](https://github.com/maurice1979/mushroom-identifier){.cta-btn .cta-secondary}
