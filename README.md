@@ -38,9 +38,9 @@ quarto preview
 
 ## Publishing
 
-Pushing to `master` triggers `.github/workflows/publish.yml`, which renders the
+Pushing to `main` triggers `.github/workflows/publish.yml`, which renders the
 site and deploys it via GitHub Pages' native Actions deployment.
 
 **One-time setup:** in this repo's **Settings → Pages**, set "Build and deployment
 → Source" to **GitHub Actions** (not "Deploy from a branch"). After that, every
-push to `master` deploys automatically.
+push to `main` deploys automatically.

@@ -29,7 +29,7 @@ Recent work spans data lake architecture, production ETL/ELT pipelines, reusable
 
 - **Data lake architecture** — a data platform for a multi-country product dataset spanning Spain, France, Italy and Great Britain (S3, Glue, Athena, ECS, Lambda, RDS/PostgreSQL), with entity-level historical tracking of change over time.
 - **LLM-powered enrichment** — a dual-provider (OpenAI + Anthropic) batch-processing framework powering 17+ production prompts — ingredient translation, entity matching, claim classification — with prompt-dependency chains, result caching and provider abstraction.
-- **Two internal Python libraries** — primary author of `ntq-data-toolkit` at Netquest and the data-lake commons package at Holaluz (I/O, connectors, logging), each versioned, documented and picked up by other teams.
+- **Two internal Python libraries** — primary author of the shared data I/O and connectors library at Netquest and the data-lake commons package at Holaluz (I/O, connectors, logging), each versioned, documented and picked up by other teams.
 - **Forecasting, a long-running thread** — a multi-model demand/surplus forecasting system (XGBoost, Random Forest, Time Fusion Transformer) for Spain's electricity markets, building on a physics-and-ML forecasting library I first wrote years earlier at Nnergix.
 - **Pipeline reliability** — optimizing dbt/Redshift models and moving select PySpark/EMR workloads to Polars in Docker, to make pipelines cheaper to run and easier to debug.
 
@@ -47,7 +47,7 @@ Designed the data lake architecture for a food-intelligence platform (S3, Glue, 
 [Senior Data Engineer]{.timeline-role}<br>
 [Netquest · Barcelona (Hybrid) [·]{.dot} Jan 2025 – Mar 2026]{.timeline-meta}
 
-Primary author of `ntq-data-toolkit`, the shared Python library for Netquest's data teams (Polars-based I/O, Redshift/MySQL/PostgreSQL connectors, logging), including its release pipeline (semantic versioning, Sphinx docs). Primary maintainer of `ntq-bdm`, the Behavioural Data Model pipeline, where I built the CI/CD from scratch (Jenkinsfile: lint, pytest, Docker, Trivy, ECR) and later rolled the same pattern out to a couple of other repos. Also contributed to the team's much larger, long-running Airflow repository, owning the clickstream/user-navigation DAG domain.
+Primary author of the shared Python library for Netquest's data teams (Polars-based I/O, Redshift/MySQL/PostgreSQL connectors, logging), including its release pipeline (semantic versioning, Sphinx docs). Primary maintainer of the team's Behavioural Data Model pipeline, where I built the CI/CD from scratch (Jenkinsfile: lint, pytest, Docker, Trivy, ECR) and later rolled the same pattern out to a couple of other repos. Also contributed to the team's much larger, long-running Airflow repository, owning the clickstream/user-navigation DAG domain.
 :::
 
 ::: {.timeline-item}
